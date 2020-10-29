@@ -1,11 +1,12 @@
-name: Build App2
+name: Build App1
 
 on:
   push:
     branches: [main]
     paths:
-      - 'app2/**'
+      - 'app1/**'
       - 'common/**'
+      - '.github/workflows/app1/*'
 
 jobs:
   build:
