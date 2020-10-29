@@ -1,8 +1,10 @@
-name: Java CI with Gradle
+name: Build App1
 
 on:
   push:
     branches: [main]
+    paths:
+      - 'app1/**'
 
 jobs:
   build:
