@@ -1,11 +1,11 @@
-package com.example.redis
+package com.examples
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
 
 @SpringBootApplication
-class RedisApplication
+class ExampleApplication
 
 fun main(args: Array<String>) {
-    runApplication<RedisApplication>(*args)
+    runApplication<ExampleApplication>(*args)
 }
